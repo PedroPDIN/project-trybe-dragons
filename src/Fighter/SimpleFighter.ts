@@ -3,5 +3,5 @@ export default interface SimpleFighter {
   strength: number,
 
   attack(enemy: SimpleFighter): void;
-  receiveDamage(attackPoint: number): void; 
+  receiveDamage(attackPoints: number): void; 
 }
